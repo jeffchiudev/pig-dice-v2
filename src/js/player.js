@@ -1,4 +1,4 @@
-function Player() {
+export default function Player() {
   this.turnScoreCard = [];
   this.totalScore = 0;
   this.isPlaying;

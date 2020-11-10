@@ -2,6 +2,9 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import checkWon from './checkWon';
+import Player from './player';
+import rollDice from './rollDice';
 
 
 // User Interface Logic
