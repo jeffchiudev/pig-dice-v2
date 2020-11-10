@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'TODO',
+      title: 'Pig Dice v2',
       template: './src/index.html',
       inject: 'body'
     })

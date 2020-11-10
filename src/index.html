@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <title>TODO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pig Dice</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
+
 <body>
-  <form id="TODO">
-    <label for="TODO">TODO:</label>
-    <input id="TODO" type="TODO">
-    <button type="submit">Submit</button>
-  </form>
-  <ul id="response"></ul>
-    <li></li>
+  <div class="container">
+    <div class="jumbotron"></div>
+    <p>Try your hand at the classic game of pig dice, face your friends! First score to 100 wins bragging rights, loser
+      is the pig!!</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="game-board">
+            <form id="formOne">
+              <p>Currently, it's <span id="currentPlayer">Player 1</span> turn.</p>
+              <button type="submit" class="btn btn-success gamePlay">Roll!</button>
+              <button type="button" class="btn btn-danger stopPlay">End Turn</button>
+            </form>
+          </div>
+          <p class="userResults"></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card results-card"> 
+          <p>Player 1's Score is: <span id="player-1-score">0</span></p>
+          <p>Player 2's Score is: <span id="player-2-score">0</span></p>
+          <ul class="userResults2"></ul>
+          <p class="results"></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
