@@ -1,3 +1,51 @@
+.userResults {
+  padding: 20px 10px;
+}
+
+.jumbotron {
+  background-image: url(../images/pig-dice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
 body {
-  background-color: TODO;
+  background-color: #FFC43D;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.card {
+  border-style: none;
+  background-color: #b4f1e5;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.card .game-board {
+  height: 160px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.userResults {
+  padding-left: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.results-card {
+  height: 240px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
 }
